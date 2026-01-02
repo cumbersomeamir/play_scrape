@@ -1,0 +1,24 @@
+{
+  "name": "play-scrape",
+  "version": "1.0.0",
+  "description": "CLI tool to discover Dhanda-like Google Play apps (high rating count, low installs)",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs",
+    "dev": "node index.mjs"
+  },
+  "keywords": [
+    "google-play",
+    "scraper",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "google-play-scraper": "^10.1.2",
+    "p-limit": "^5.0.0"
+  }
+}
+
+
